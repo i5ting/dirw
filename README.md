@@ -22,6 +22,6 @@ a nodejs directory utils
 
     var dirw = require('dirw');
     dirw.dir(path, function(dir_path, dir_name){
-      console.log(p);
+      console.log(dir_path);
     });
 
