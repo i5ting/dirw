@@ -1,5 +1,7 @@
 # dirw
 
+a nodejs directory utils 
+
 ## Install 
 
     npm install --save dirw
