@@ -21,7 +21,7 @@ a nodejs directory utils
 遍历目录
 
     var dirw = require('dirw');
-    dirw.dir(path, function(p){
+    dirw.dir(path, function(dir_path, dir_name){
       console.log(p);
     });
 

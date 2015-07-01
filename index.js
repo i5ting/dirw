@@ -49,7 +49,11 @@ function dir(path, handleFile) {
 						console.log('stat error');
 					} else {
 						if (stats.isDirectory()) {
-							handleFile(tmpPath);
+              tmpPath
+              var pathArr = tmpPath.split('/')
+              var dir_name = pathArr.pop();
+              
+							handleFile(tmpPath, dir_name);
 						} else {
               // console.log('not a dir')
 						}
