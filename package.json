@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm publish .",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/i5ting/dirw/issues"
   },
-  "homepage": "https://github.com/i5ting/dirw#readme"
+  "homepage": "https://github.com/i5ting/dirw#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "debug": "^2.2.0",
+    "mocha": "^2.2.5"
+  }
 }
